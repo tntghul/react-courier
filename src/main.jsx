@@ -13,7 +13,7 @@ import Contact from '../pages/Contact'
 createRoot(document.getElementById('root')).render(
   
     <StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename="/react-courier">
       <Nav/>
       <Routes>
         <Route path='/' element ={< Home/>}/>
