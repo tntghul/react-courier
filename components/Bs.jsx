@@ -140,4 +140,8 @@ const MultiStepForm = () => {
   );
 };
 
+<<<<<<< HEAD
 export default MultiStepForm;
+=======
+export default MultiStepForm;
+>>>>>>> b2586ce (Saving local changes before pull)

@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
       
       <div className='pt-2 bg-warning d-flex justify-content-center'>
-            <p className='text-dark'><b>Copywrite 2025 QUERIERsathi</b></p>
+            <p className='text-dark'><b>Copyright 2025 QUERIERsathi</b></p>
       </div>
       </footer>
     </>
