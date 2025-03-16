@@ -7,7 +7,7 @@ const Nav = () => {
     <>
       <nav className="navbar navbar-expand-sm">
   <div className="container-fluid">
-    <a className="navbar-brand ps-5" href="/"><img src={courier} alt="" /></a>
+    <Link className="navbar-brand ps-5" to="/"><img src={courier} alt="" /></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span className="navbar-toggler-icon"></span>
     </button>
