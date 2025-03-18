@@ -19,6 +19,7 @@ createRoot(document.getElementById('root')).render(
     <StrictMode>
       <BrowserRouter basename="/react-courier">
       <Nav/>
+      
       <Routes>
         <Route path='/' element ={< Home/>}/>
         <Route path='/about' element ={< About/>}/>

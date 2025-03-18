@@ -10,6 +10,10 @@ const Tship = () => {
   const rightRef = useRef(null);
 
   useEffect(() => {
+          window.scrollTo(0, 0); // Page open hone par top pe scroll karega
+        }, []);
+
+  useEffect(() => {
     gsap.fromTo(
       leftRef.current,
       { x: -100, opacity: 0 },

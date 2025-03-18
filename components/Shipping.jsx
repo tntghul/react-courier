@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Shipping = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Page open hone par top pe scroll karega
+      }, []);
   return (
     <>
     <div className="container my-5">

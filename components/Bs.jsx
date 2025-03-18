@@ -14,6 +14,10 @@ const MultiStepForm = () => {
   });
 
   useEffect(() => {
+          window.scrollTo(0, 0); // Page open hone par top pe scroll karega
+        }, []);
+
+  useEffect(() => {
     gsap.fromTo(
       formRef.current,
       { opacity: 0, y: 50 },

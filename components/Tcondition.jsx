@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function Tcondition() {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        if (pathname === "/terms") {
+          window.scrollTo(0, 0); // Terms page open hone par top pe scroll karega
+        }
+      }, [pathname]);
   return (
     <>
       <div className="container my-5">
