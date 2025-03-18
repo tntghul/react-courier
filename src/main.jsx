@@ -8,6 +8,10 @@ import About from '../pages/About'
 import Book from '../pages/Book'
 import Track from '../pages/Track'
 import Contact from '../pages/Contact'
+import Privacy from '/components/Privacy'
+import Shipping from '/components/Shipping'
+import Refund from '/components/Refund'
+import Tcondition from '/components/Tcondition'
 
 
 createRoot(document.getElementById('root')).render(
@@ -21,6 +25,11 @@ createRoot(document.getElementById('root')).render(
         <Route path='/book' element ={< Book/>}/>
         <Route path='/track' element ={< Track/>}/>
         <Route path='/contact' element ={< Contact/>}/>
+        <Route path ='/privacy' element={<Privacy/>}/>
+        <Route path ='/shipping' element={<Shipping/>}/>
+        <Route path ='/refund' element={<Refund/>}/>
+        <Route path ='/terms' element={<Tcondition/>}/>
+       
       </Routes>
       <Footer/>
       </BrowserRouter>

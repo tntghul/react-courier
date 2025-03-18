@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -13,17 +14,17 @@ const Footer = () => {
             <div className="col-lg-3 mt-4 text-center">
                 <h5>Quick Links</h5>
                 <ul className="list-unstyled display-6 fs-6 ">
-                    <li className='mt-3 text-secondary' > Privacy Policy</li>
-                    <li className='mt-2 text-secondary'>Terms and Condition</li>
-                    <li className='mt-2 text-secondary'>Refund and Returns</li>
-                    <li className='mt-2 text-secondary'>Shipping and Delivery</li>
+                    <Link className='text-decoration-none' to="/privacy"><li className='mt-3 text-secondary' > Privacy Policy</li></Link>
+                    <Link className='text-decoration-none' to="/terms"><li className='mt-2 text-secondary'>Terms and Condition</li></Link>
+                    <Link className='text-decoration-none' to="/refund"><li className='mt-2 text-secondary'>Refund and Returns</li></Link>
+                    <Link className='text-decoration-none' to="/shipping"><li className='mt-2 text-secondary'>Shipping and Delivery</li></Link>
                 </ul>
             </div>
             <div className="col-lg-3 mt-4 text-center">
                 <h5>Ship With Us</h5>
                 <ul className="list-unstyled display-6 fs-6">
-                    <li className='mt-3 text-secondary'>Book a Shipment</li>
-                    <li className='mt-2 text-secondary'>Track a Shipment</li>
+                    <Link className='text-decoration-none' to="/book"><li className='mt-3 text-secondary'>Book a Shipment</li></Link>
+                    <Link className='text-decoration-none' to="/track"><li className='mt-2 text-secondary'>Track a Shipment</li></Link>
                 </ul>
             </div>
             <div className="col-lg-3 mt-4 text-center">
